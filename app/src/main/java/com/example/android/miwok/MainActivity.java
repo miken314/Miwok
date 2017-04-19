@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
         numbersTextView.setOnClickListener(new NumbersClickListener());
     }
 }
-
 // the above is simplified from:
 // NumbersClickListener clickListener = new NumbersClickListener();
 // numbersTextView.setOnClickListener(clickListener);
